@@ -1,0 +1,189 @@
+*{
+    margin: 0px;
+    border: border-box;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+}
+body{
+    background-color: white;
+    height: auto;
+}
+.content{
+    height: 550px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.images{
+    width: 100%;
+    height:95px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    background-image: url("googlelogo_color_272x92dp.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 300px;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+#searching{
+    width: 450px;
+    height:30px;
+    left:40%;
+    outline: none;
+    border-left:none ;
+    border-right: none;
+    border-bottom: 1px solid #4d5356;
+    border-top: 1px solid #4d5356;
+}
+/* #searching:hover{
+    border: none;
+} */
+.searchbox{
+    width: 30px;
+    height: 30px;
+    border-top: 1px solid  #4d5356;
+    border-left: 1px solid  #4d5356;
+    border-bottom: 1px solid  #4d5356;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.micicon{
+    width: 30px;
+    height: 30px;
+    border-top: 1px solid  #4d5356;
+    border-bottom: 1px solid  #4d5356;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lens{
+    width: 30px;
+    height: 30px;
+    border-top: 1px solid  #4d5356;
+    border-right: 1px solid  #4d5356;
+    border-bottom: 1px solid  #4d5356;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.action{
+    margin: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    height: 40px;
+    width: 130px;
+    margin-left: 30px;
+    background-color: white;
+    border: none;
+}
+button:hover{
+    border: 1px solid  #bec2c3;
+    border-radius: 10px;
+}
+.head{
+    height: 100px;
+}
+
+
+/* header */
+header{
+    height:70px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    justify-content: right;
+}
+.head{
+    width: 250px;
+    display: flex;
+    justify-content:space-evenly;;
+    align-items: center;
+}
+.display{
+    font-size:13px; 
+}
+.display:hover{
+    text-decoration: underline;
+}
+.gmail{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: brown;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lang2{
+    height: 10px;
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: 30;
+    font-size: 13px;
+    
+
+}
+.lang{
+    
+    display: flex;
+    justify-content:center;
+    align-items: center;
+   
+}
+.alignment{
+    color: #1a0dab;
+}
+.alignment:hover{
+    text-decoration: underline;
+}
+.india{
+    
+    padding: 15px 30px 15px 30px;
+    position: relative;
+    color: #202124;
+    font-size: 15px;
+    bottom: 0px;
+    background-color:  #f0f1f1;
+}
+footer{
+    position:relative;
+    bottom:0px;
+
+}
+.f{
+    height: 50px;
+    border-top: 1px solid  #cdd1d4;
+    padding-top: 0px;
+    position: relative;
+    bottom: 0px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #f0f1f1;
+    font-size: 14px;
+}
+.pad{
+    
+    padding: 15px;
+}
